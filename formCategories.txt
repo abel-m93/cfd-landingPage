@@ -1,0 +1,33 @@
+Email
+Phone Number
+Contact Namee
+Business Name
+Type of Business (radio)
+Type Products (checkboxes)
+Extra Information(Textbox)
+
+
+produce
+meats
+poultry
+dairy
+seafood
+Gyros
+Deli Products
+Pita Breads
+French Fries
+Frozen Appetizers
+Paper Goods
+Foam Containers
+Beverage Containers 
+Janitorial Supplies
+Seasonings
+Sauces
+Cooking Oils / Shortenings 
+Flour / Breading
+Foodservice Supplies
+Greek Imports
+Hispanic imports
+Indian Imports
+Asian imports 
+European imports
