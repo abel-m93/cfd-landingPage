@@ -28,8 +28,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Chicago Food Distributors</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+      <a class="navbar-brand mx-auto" href="#">Chicago Food Distributors</a>
+      <!-- <a class="btn btn-primary" href="#">Sign In</a> -->
     </div>
   </nav>
 
@@ -42,7 +42,7 @@
           <h1 class="mb-5">Looking For Wholesale Food Distributors? We'll Connect you to Chicagolands Best.</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <h2 class = "mt-5">Just Complete The Below Form As Much As You Can!</h2>
+          <h2 class = "mt-5">Complete The Form Below to Get In Touch With Dozens Of Local Distributors!</h2>
           <!-- <form>
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
@@ -187,29 +187,29 @@
         <!-- <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div> -->
         <!-- Testing Form in 2 Column layout -->
         <!-- <div class="container"> -->
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-8 order-lg-2 mx-auto">
             <div class="card card-outline-secondary">
               <div class="card-header">
-                  <h3 class="mb-0">User Information</h3>
+                  <h3 class="mb-0">Business Information</h3>
               </div>
               <div class="card-body">
-                  <form class="form" role="form" autocomplete="off">
+                  <form class="form" role="form" autocomplete="off" action="/onSubmit.js" method="GET">
                       <div class="form-group row">
                           <label class="col-lg-3 col-form-label form-control-label">Email</label>
                           <div class="col-lg-9">
-                              <input class="form-control" type="email" placeholder="email@email.com" required>
+                              <input class="form-control" name="email"type="email" placeholder="email@email.com" required>
                           </div>
                       </div>
                       <div class="form-group row">
                           <label class="col-lg-3 col-form-label form-control-label">Phone Number</label>
                           <div class="col-lg-9">
-                              <input class="form-control" type="tel" placeholder="888-88-8888">
+                              <input class="form-control" name="phone"type="tel" placeholder="888-88-8888">
                           </div>
                       </div>
                       <div class="form-group row">
                           <label class="col-lg-3 col-form-label form-control-label">Contact Name</label>
                           <div class="col-lg-9">
-                              <input class="form-control" type="text" placeholder="John Smith">
+                              <input class="form-control" name="contactName"type="text" placeholder="John Smith">
                           </div>
                       </div>
 
@@ -299,7 +299,7 @@
                           </div>
                           <div class="form-check">
                               <input class="form-check-input" type="checkbox" id="checkbox15" value="Sauces">
-                              <label class="form-check-label" for="checkbox15">Sauces</label>
+                              <label class="form-check-label" for="checkbox15">Sauces, Dressings, Condiments</label>
                           </div>
                           <div class="form-check">
                               <input class="form-check-input" type="checkbox" id="checkbox16" value="OilsShortenings">
@@ -314,8 +314,8 @@
                               <label class="form-check-label" for="checkbox18">Flour/Breading</label>
                           </div>
                           <div class="form-check">
-                              <input class="form-check-input" type="checkbox" id="checkbox19" value="GreekImports">
-                              <label class="form-check-label" for="checkbox19">Greek/Mediterranean Imports</label>
+                              <input class="form-check-input" type="checkbox" id="checkbox19" value="Imports">
+                              <label class="form-check-label" for="checkbox19"> Various Ethnic Imports</label>
                           </div>
 
                         </div>
@@ -331,7 +331,7 @@
                           <label class="col-lg-3 col-form-label form-control-label"></label>
                           <div class="col-lg-9">
                               <input type="reset" class="btn btn-secondary" value="Cancel">
-                              <input type="button" class="btn btn-primary" value="Save Changes">
+                              <input type="submit" class="btn btn-primary" value="Submit">
                           </div>
                       </div>
                   </form>
@@ -339,23 +339,23 @@
             </div>
           </div>
           <!-- End Form Test -->
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <!-- <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Fully Responsive Design</h2>
           <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
+        </div> -->
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/assortedVegs3.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Connecting Kitchens with Dependable Suppliers</h2>
+          <p class="lead mb-0">From everyday essentials to rare imports, our partnered suppliers are ready to ensure your kitchen and staff have everything they need to make your business thrive. Business relationships are an important part of any succesful venture. We at Chicago Food Distributors not only want to help find the products and suppliers you need, but also help you find invaluable business partners along the way.  </p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/coverageMap.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Servicing The Chicagoland Metropolitan Area and More</h2>
+          <p class="lead mb-0">With our ever expanding network of suppliers, we can cover the Chicagoland area in all directions. Think you're out of reach? Enter where you are looking for service in the Extra Information section of the form.</p>
         </div>
       </div>
     </div>
@@ -371,21 +371,21 @@
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
             <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            <p class="font-weight-light mb-0">"I was finally able to move on from my previous supplier of ten years! I had no idea there were so many suppliers around town."</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
             <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            <p class="font-weight-light mb-0">"Not only was I able to cut my restaurants kitchen costs, but we also expanded to a second location with the savings".</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
             <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            <p class="font-weight-light mb-0">"Finding new business partners increased our revenue by 30% and allowed me to give my staff raises across the board!"</p>
           </div>
         </div>
       </div>
@@ -438,7 +438,7 @@
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Chicago Food Distributors 2020. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
@@ -466,6 +466,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="onSubmit.js"></script> -->
 
 </body>
 
